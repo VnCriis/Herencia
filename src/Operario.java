@@ -15,6 +15,8 @@ public class Operario extends  Empleado{
         System.out.println("Saludo desde operario");
         System.out.println("Mi nombre es:");
         System.out.println(this.getNombre());
+        System.out.println("Mi apodo es:");
+        System.out.println((this.getApodo()));
     }
 
     public String getApodo() {
@@ -25,6 +27,6 @@ public class Operario extends  Empleado{
         this.apodo = apodo;
     }
     public void imprimirApodo(){
-
+        System.out.println(this.apodo);
     }
 }

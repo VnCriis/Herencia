@@ -1,8 +1,7 @@
 public class Main{
     public static void main (String [] args){
         Empleado E1 = new Empleado("Pedro","0001");
-        Operario O1 = new Operario("Jose","002");
-
+        Operario O1 = new Operario("Jose","002","Pepe");
         Directivo D1 = new Directivo("Andrea","003");
         Oficial Of1 = new Oficial("Ana","004");
         Tecnico T1 = new Tecnico("Darwin","005");
@@ -23,5 +22,6 @@ public class Main{
         sO1.saludo();
         ssO1.saludosubsubOficial();
         ssO1.saludo();
+
     }
 }
